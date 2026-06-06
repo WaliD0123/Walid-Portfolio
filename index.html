@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7359ee58ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="#"><span>W</span>alid's <span>Po</span>rtfolio.</a></div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web & App Developer,</p>
+                <h1>Assalamualaikum, I'm <span>Walid</span></h1>
+                <a href="" class="btn btn3">Hire Me!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/personal.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                <p>Hello!! I'm Waliduzzaman Limon.I'm a web and app developer.With over 1.5 years of experience in the industry, I established myself as a leading developer known for my innovative solutions and attention to detail.My expertise spans across various technologies and platforms, making me a versatile and adaptable professional in the fast-evolving tech landscape.
+
+                </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p></div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development </span><br>Web app development</li>
+                        <li><span>App Development </span><br>Building Android/IOS apps</li>
+                        <li><span>Languages</span><br>C++,Python <br>HTML,CSS,JavaScript<br>Flutter</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2028</span><br>Web developer Training at Creative IT Institute</li>
+                        <li><span>2028</span><br>M.Sc from RUET</li>
+                        <li><span>2027</span><br>B.Sc from Varendra University,Rajshahi</li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I offer a range of services designed to create, enhance, and maintain websites and web applications. My expertise encompasses various aspects of web development, ensuring that the final product is functional, visually appealing, and user-friendly</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>As a app developer my services encompass a wide range of offerings designed to help individuals, startups, and established businesses create, deploy, and maintain mobile and web applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="works">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app will made your daily life easy to connect you all over the world</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>This app will make your shopping easy from home</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Online Books App</h3>
+                    <p>This app is for book lovers who love to read books in their free time</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more...</a>
+    </div>
+</div>
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@1234.com</p>
+                <p><i class="fa-solid fa-phone"></i>018xxxxxxxx</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><span>Copyright <span class="far fa-copyright"></span> <a>Walid</a> |  2024 All rights reserved.</span></p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
